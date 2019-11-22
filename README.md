@@ -4,9 +4,9 @@ Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-  Nodejs;
-  Express;
-  Ejs;
+    Nodejs;
+    Express;
+    Ejs;
   
 
 Projeto
