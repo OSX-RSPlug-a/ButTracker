@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <meta name="x-apple-disable-message-reformatting">
+
+    <link rel="stylesheet" href="/css/style-main.css" type="text/css" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+	<title>Tool | Bug reporter</title>
+
+    <script>
+    
+        document.onreadystatechange = () => {
+            if(document.readyState === 'interactive') {
+                document.getElementById('userAgent').value = window.navigator.userAgent
+                document.getElementById('userDate').value = new Date() 
+            }
+        }
+    
+    </script>
+
+</head>
+
+<body>
+
+    <div className="navM">	
+        <header>
+            <nav>
+                <ul className="menu">
+                    <li class="logo"><i class="material-icons">settings_cell</i><h2>Téléphone</h2></li>
+                    <li class="item"><a href="#top"><i class="material-icons" title="Menu/User">apps</i></a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="card">
+
+        <h1>Bug report</h1>
+
+        <h3>Please report to us some bug on our application.</h3>
+
+        <form method="post">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="issueType">Classification:</label>
+            <select type="select" class="select-cst" id="issueType" name="issoeType" >
+                <option value="">Select ></option>
+                <option value="bug">BUG</option>
+                <option value="critical">Critical</option>
+                <option value="enhance">Enhance</option>
+            </select>
+
+            <label for="howToReproduce"><br>How was the error?</label>
+            <input type="text" id="howToReproduce" name="howToReproduce" required />
+
+            <label for="expectedOutput"><br>How was the output data required?</label>
+            <input type="text" id="expectedOutput" name="expectedOutput" required />
+
+            <label for="receiveddOutput"><br>How was the data receive?</label>
+            <input type="text" id="receiveddOutput" name="receiveddOutput" required />
+
+            <input type="hidden" id="userAgent" name="userAgent" hidden />
+
+            <input type="hidden" id="userDate" name="userDate" hidden />
+
+            <button class="ent">Send</button>
+
+        </form>
+
+    </div>
+    
+</body>
+
+</html>
