@@ -1,8 +1,9 @@
-# ButTracker
+# BuGTracker
+
+Projeto de sendmail sobre bugs em algum sitema, site, ect;
+
 
 Tecnologias
-
-Esse projeto foi desenvolvido com as seguintes tecnologias:
 
     Nodejs;
     Express;
