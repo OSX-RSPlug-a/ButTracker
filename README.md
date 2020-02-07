@@ -1,6 +1,6 @@
 # BuGTracker
 
-Projeto de sendmail sobre bugs em algum sitema, site, ect;
+Projeto de sendmail sobre bugs em algum sistema, site, ect;
 
 
 Tecnologias
@@ -12,7 +12,7 @@ Tecnologias
 
 Projeto
 
-Projeto BugTracker para estudo de Nodejs e JS
+Projeto BugTracker para estudo de Nodejs e JS;
 
 
 Run the commands on folder backend and frontend:
